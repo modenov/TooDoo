@@ -34,6 +34,7 @@ def add_todo(date, task):
     print("Задача", task, "добавлена на", date)
 
 
+# основной цикл программы
 while run:
     command = input("Введите команду: ")
     if command == "помощь":
